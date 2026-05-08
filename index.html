@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhyideen Muhammad Abiodun - Frontend Developer Portfolio">
+    <title>Muhyideen Muhammad | Frontend Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Elements -->
+    <div class="bg-gradient-1"></div>
+    <div class="bg-gradient-2"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">MM<span>.</span></a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data reveal-left">
+                        <h3 class="home__subtitle">Hello, I'm</h3>
+                        <h1 class="home__title">Muhyideen<br>Muhammad</h1>
+                        <h3 class="home__role">Frontend Developer</h3>
+                        <p class="home__description">
+                            Creative and results-driven Frontend Developer with 3+ years of experience designing and building responsive, user-centric web applications.
+                        </p>
+                        
+                        <div class="home__social">
+                            <a href="https://linkedin.com/in/muhammad-muhyideen-dev" target="_blank" class="home__social-link">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/MMfrontend-developer" target="_blank" class="home__social-link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="mailto:mmuhyideen1234@gmail.com" class="home__social-link">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                        
+                        <a href="#projects" class="btn btn--primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="home__img-wrapper reveal-right">
+                    <div class="home__blob">
+                        <img src="official profile pic.jpeg" alt="Muhyideen Muhammad" class="home__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section__title reveal-up">Professional Profile</h2>
+            <span class="section__subtitle reveal-up">Get to know me</span>
+
+            <div class="about__container container grid reveal-up">
+                <div class="about__data glass-card">
+                    <p class="about__description">
+                        Expertise in modern frontend technologies including <strong> Next.js, React.js, TypeScript, JavaScript, Tailwind CSS and expanding in React-Native.</strong> delivering high-performance, scalable, and accessible interfaces. Skilled at translating complex UI/UX designs into interactive applications while optimizing for speed, cross-browser compatibility, and seamless user experiences. Passionate about innovation, problem-solving, and creating impactful digital solutions.
+                    </p>
+                    <div class="about__info grid">
+                        <div class="about__info-box">
+                            <i class="fa-solid fa-award about__icon"></i>
+                            <h3 class="about__info-title">Experience</h3>
+                            <span class="about__info-subtitle">3+ Years Working</span>
+                        </div>
+                        <div class="about__info-box">
+                            <i class="fa-solid fa-briefcase about__icon"></i>
+                            <h3 class="about__info-title">Completed</h3>
+                            <span class="about__info-subtitle">20+ Projects</span>
+                        </div>
+                        <div class="about__info-box">
+                            <i class="fa-solid fa-graduation-cap about__icon"></i>
+                            <h3 class="about__info-title">Education</h3>
+                            <span class="about__info-subtitle">BSc Computer Science</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title reveal-up">Technical Skills</h2>
+            <span class="section__subtitle reveal-up">My toolkit</span>
+
+            <div class="skills__container container grid">
+                <!-- Languages & Frameworks -->
+                <div class="skills__content glass-card reveal-left">
+                    <h3 class="skills__title"><i class="fa-solid fa-code"></i> Languages & Frameworks</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-brands fa-js skills__icon"></i>
+                                <div><h3 class="skills__name">JavaScript</h3></div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-brands fa-js-square skills__icon"></i> <!-- TS approx -->
+                                <div><h3 class="skills__name">TypeScript</h3></div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-brands fa-react skills__icon"></i>
+                                <div><h3 class="skills__name"></h3>Next.js</div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-n skills__icon"></i> <!-- Next.js approx -->
+                                <div><h3 class="skills__name">React.js & Native</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Styling & Tools -->
+                <div class="skills__content glass-card reveal-right">
+                    <h3 class="skills__title"><i class="fa-solid fa-pen-nib"></i> Styling & Tools</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-brands fa-css3-alt skills__icon"></i>
+                                <div><h3 class="skills__name">Tailwind CSS</h3></div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-palette skills__icon"></i>
+                                <div><h3 class="skills__name">shadcn/ui</h3></div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-brands fa-git-alt skills__icon"></i>
+                                <div><h3 class="skills__name">Git & GitHub</h3></div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-server skills__icon"></i>
+                                <div><h3 class="skills__name">API Integration</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <h2 class="section__title reveal-up">Professional Experience</h2>
+            <span class="section__subtitle reveal-up">My journey</span>
+
+            <div class="experience__container container grid">
+                <!-- Gigs-tech -->
+                <div class="experience__card glass-card reveal-up">
+                    <div class="experience__header">
+                        <h3 class="experience__title">Frontend Developer</h3>
+                        <span class="experience__company">Gigs-tech Solutions and Consults (Remote)</span>
+                        <span class="experience__calendar"><i class="fa-regular fa-calendar-days"></i> Sept 2024 – July 2025</span>
+                    </div>
+                    <ul class="experience__list">
+                        <li><i class="fa-solid fa-caret-right"></i> Delivered high-quality frontend solutions for multiple freelance projects using React, Next.js, TypeScript, and Tailwind CSS.</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Developed responsive, scalable, and performance-optimized web applications.</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Collaborated closely with clients to translate UI/UX designs into functional interfaces.</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Key Projects: Real-world applications including Weather App and Banking Interface.</li>
+                    </ul>
+                </div>
+
+                <!-- Miatos -->
+                <div class="experience__card glass-card reveal-up">
+                    <div class="experience__header">
+                        <h3 class="experience__title">Frontend Developer</h3>
+                        <span class="experience__company">Miatos Solution (Remote)</span>
+                        <span class="experience__calendar"><i class="fa-regular fa-calendar-days"></i> March 2023 – June 2024</span>
+                    </div>
+                    <ul class="experience__list">
+                        <li><i class="fa-solid fa-caret-right"></i> Built robust frontend solutions emphasizing performance, usability, and cross-browser compatibility.</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Implemented responsive, component-based architectures for scalable applications.</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Integrated APIs and ensured seamless UI/UX experiences for end users.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title reveal-up">Selected Projects</h2>
+            <span class="section__subtitle reveal-up">Recent work</span>
+
+            <div class="projects__container container grid">
+                <!-- Project 1: Shapora -->
+                <div class="projects__card glass-card reveal-up">
+                    <div class="projects__header">
+                        <h3 class="projects__title">Shapora</h3>
+                        <span class="projects__subtitle">E-Commerce Web App</span>
+                    </div>
+                    <div class="projects__content">
+                        <p><strong>Problem:</strong> Needed a modern, responsive e-commerce frontend.</p>
+                        <p><strong>Solution:</strong> Developed scalable, TypeScript-based Next.js application with dynamic routing, reusable components, and smart product filtering.</p>
+                        <p><strong>Tech Stack:</strong> Next.js, TypeScript, Tailwind CSS, shadcn/ui</p>
+                        <p><strong>Outcome:</strong> Seamless user experience across devices with optimized performance and modular architecture.</p>
+                    </div>
+                    <div class="projects__actions">
+                        <a href="https://shapora-store.vercel.app" target="_blank" class="btn btn--small">Live Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2: BBR_Agency -->
+                <div class="projects__card glass-card reveal-up">
+                    <div class="projects__header">
+                        <h3 class="projects__title">BBR_Agency</h3>
+                        <span class="projects__subtitle">Freelance Collaboration Platform</span>
+                    </div>
+                    <div class="projects__content">
+                        <p><strong>Problem:</strong> Simulate a secure freelance/agency platform for client-service provider collaboration.</p>
+                        <p><strong>Solution:</strong> Built React-based interface with escrow system, testimonial module, and contact system.</p>
+                        <p><strong>Tech Stack:</strong> React, JavaScript, CSS3</p>
+                        <p><strong>Outcome:</strong> Fully responsive, modern UI supporting real-world project management simulations.</p>
+                    </div>
+                    <div class="projects__actions">
+                        <a href="https://bbr-agency.vercel.app" target="_blank" class="btn btn--small">Live Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3: OxBank -->
+                <div class="projects__card glass-card reveal-up">
+                    <div class="projects__header">
+                        <h3 class="projects__title">OxBank</h3>
+                        <span class="projects__subtitle">Modern Banking Interface</span>
+                    </div>
+                    <div class="projects__content">
+                        <p><strong>Problem:</strong> Create a professional fintech interface showcasing dashboards and transaction flows.</p>
+                        <p><strong>Solution:</strong> Developed modular, reusable UI components with authentication-ready flows.</p>
+                        <p><strong>Tech Stack:</strong> React, JavaScript, CSS3</p>
+                        <p><strong>Outcome:</strong> Optimized for desktop, tablet, and mobile with emphasis on clarity and accessibility.</p>
+                    </div>
+                    <div class="projects__actions">
+                        <a href="https://oxbank-oll1.vercel.app" target="_blank" class="btn btn--small">Live Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Weather Sphere -->
+                <div class="projects__card glass-card reveal-up">
+                    <div class="projects__header">
+                        <h3 class="projects__title">Weather Sphere</h3>
+                        <span class="projects__subtitle">Live Weather App</span>
+                    </div>
+                    <div class="projects__content">
+                        <p><strong>Problem:</strong> Provide real-time weather data to users.</p>
+                        <p><strong>Solution:</strong> Integrated Open Weather Map API with geolocation support, autocomplete search, and responsive UI.</p>
+                        <p><strong>Tech Stack:</strong> HTML5, JavaScript, CSS3</p>
+                        <p><strong>Outcome:</strong> Fast, mobile-friendly, and interactive weather experience with theme switcher and animations.</p>
+                    </div>
+                    <div class="projects__actions">
+                        <a href="https://weather-sphere-gilt.vercel.app" target="_blank" class="btn btn--small">Live Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Muhyideen</h1>
+            
+            <ul class="footer__list">
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#projects" class="footer__link">Projects</a></li>
+                <li><a href="mailto:mmuhyideen1234@gmail.com" class="footer__link">Contact</a></li>
+            </ul>
+
+            <div class="footer__social">
+                <a href="https://linkedin.com/in/muhammad-muhyideen-dev" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/MMfrontend-developer" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+            <span class="footer__copy">
+                &#169; Muhyideen Muhammad Abiodun. All rights reserved.
+            </span>
+            <span class="footer__phone">
+                <i class="fa-solid fa-phone"></i> +2347083528377
+            </span>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
