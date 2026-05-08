@@ -1,7 +1,7 @@
-/* =============== GOOGLE FONTS =============== */
+/* GOOGLE FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap");
 
-/* =============== VARIABLES CSS =============== */
+/* VARIABLES CSS */
 :root {
   /* Colors */
   --hue: 220;
@@ -55,7 +55,7 @@
   }
 }
 
-/* =============== BASE =============== */
+/* BASE */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -97,7 +97,7 @@ img {
   height: auto;
 }
 
-/* =============== BACKGROUND GRADIENTS =============== */
+/* BACKGROUND GRADIENTS */
 .bg-gradient-1, .bg-gradient-2 {
   position: fixed;
   width: 400px;
@@ -128,7 +128,7 @@ img {
   100% { transform: translate(-20px, 20px); }
 }
 
-/* =============== REUSABLE CSS CLASSES =============== */
+/* REUSABLE CSS CLASSES */
 .container {
   max-width: 1024px;
   margin-inline: 1.5rem;
@@ -203,7 +203,7 @@ img {
   font-size: var(--small-font-size);
 }
 
-/* =============== HEADER & NAV =============== */
+/* HEADER & NAV */
 .header {
   position: fixed;
   width: 100%;
@@ -310,7 +310,7 @@ img {
   left: 25%;
 }
 
-/* =============== HOME =============== */
+/* HOME */
 .home__container {
   row-gap: 3rem;
   padding-top: 4rem;
@@ -401,7 +401,7 @@ img {
   100% { transform: translateY(0px); }
 }
 
-/* =============== ABOUT =============== */
+/* ABOUT */
 .about__description {
   margin-bottom: 2rem;
   text-align: center;
@@ -446,7 +446,7 @@ img {
   color: var(--text-color-light);
 }
 
-/* =============== SKILLS =============== */
+/* SKILLS */
 .skills__container {
   grid-template-columns: 1fr;
   row-gap: 2rem;
@@ -488,7 +488,7 @@ img {
   font-weight: var(--font-medium);
 }
 
-/* =============== EXPERIENCE =============== */
+/* EXPERIENCE */
 .experience__container {
   row-gap: 2rem;
 }
@@ -547,7 +547,7 @@ img {
   margin-top: 0.25rem;
 }
 
-/* =============== PROJECTS =============== */
+/* PROJECTS */
 .projects__container {
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -592,7 +592,7 @@ img {
   margin-top: auto;
 }
 
-/* =============== FOOTER =============== */
+/* FOOTER */
 .footer {
   background-color: var(--bg-color-light);
   border-top: 1px solid var(--glass-border);
@@ -662,7 +662,7 @@ img {
   margin-top: 0.5rem;
 }
 
-/* =============== SCROLL UP =============== */
+/* SCROLL UP */
 .scrollup {
   position: fixed;
   right: 1rem;
@@ -687,7 +687,7 @@ img {
   bottom: 3rem;
 }
 
-/* =============== BREAKPOINTS =============== */
+/* BREAKPOINTS */
 /* For small devices */
 @media screen and (max-width: 320px) {
   .container {
@@ -767,7 +767,7 @@ img {
   }
 }
 
-/* =============== ANIMATIONS =============== */
+/* ANIMATIONS */
 .reveal-up {
   opacity: 0;
   transform: translateY(50px);
